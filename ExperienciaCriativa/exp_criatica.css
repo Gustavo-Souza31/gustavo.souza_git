@@ -1,0 +1,75 @@
+ body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #1e293b;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0 0 0.5rem;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    .restaurant {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+      overflow: hidden;
+    }
+
+    .restaurant h2 {
+      background: #3b82f6;
+      color: white;
+      margin: 0;
+      padding: 1rem;
+    }
+
+    .restaurant-content {
+      padding: 1rem 1.5rem;
+    }
+
+    ul {
+      margin-top: 0.5rem;
+      padding-left: 1.5rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+
+    th, td {
+      padding: 0.75rem;
+      text-align: left;
+      border: 1px solid #ccc;
+    }
+
+    th {
+      background-color: #e2e8f0;
+    }
+
+    footer {
+      background-color: #1e293b;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
