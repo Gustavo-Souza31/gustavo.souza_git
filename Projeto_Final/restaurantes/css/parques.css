@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 170px;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.cabeçalho-logo{
+    width: 16%;
+}
+
+
+.missao-imagem{
+    width: 25%;
+}
+
+.sobre-nos{
+    background-image: linear-gradient(#F4F4F4, #FFFFFF);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.div-conteúdo-sobre-nós{
+    width: 50%;
+    font-size: 110%;
+    padding: 0 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sobre-nos-título{
+    padding: 24px 0;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.missao{
+    background-color: #FFFFFF;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.div-conteúdo-missao{
+    width: 50%;
+    font-size: 110%;
+    padding: 0 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.missao-título{
+    padding: 24px 0;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.visao{
+    background-color: #FFFFFF;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.div-conteúdo-visao{
+    width: 50%;
+    font-size: 110%;
+    padding: 0 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.visao-título{
+    padding: 24px 0;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.valor{
+    background-color: #FFFFFF;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.div-conteúdo-valor{
+    width: 50%;
+    font-size: 110%;
+    padding: 0 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.valor-título{
+    padding: 24px 0;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.trabalhos-títulos{
+    text-align: center;
+    padding: 40px 0;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.trabalhos{
+    background-color: #FFFFFF;
+}
+
+.trabalhos-título{
+    font-size: 200%;
+    padding: 30px 0;
+    color: black;
+}
+.rodapé{
+    background-color: black; 
+    text-align: center;
+    margin: -10px;
+}
+
+.rodapé-imagem{
+    width: 25%;
+}
+
+.tabela-div{
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 35px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+    color: black;
+  }
+
+  .links-parques {
+    color: black;
+  }
+
+  .links-parques:hover {
+    color: #709b6d;
+  }
+
+  th {
+    background-color: #709b6d;
+    color: white;
+
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  tr:hover {
+    background-color: #c9f7c6;
+  }
+

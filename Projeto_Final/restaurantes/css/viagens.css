@@ -1,0 +1,15 @@
+h1{
+    font-size: 30px;
+    font-style: verdana;
+}
+body{
+    line-height: 2;
+    align-items:center;
+    font-style:sans-serif;
+    font-size:37px;
+    color:#666;
+}
+table{
+    width:100%;
+}
+
