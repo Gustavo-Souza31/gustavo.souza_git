@@ -1,0 +1,148 @@
+Página */
+
+body {
+    margin: 100px;
+    padding-top: 10px;
+    overflow-x: hidden;
+}
+
+
+
+/* Escrita */
+
+.p1 {
+    font: 1em arial;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.p2 {
+    font: 1em arial;
+}
+
+.p3 {
+    font: 0.8em arial;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+/* Link */
+
+a {
+    font: 0.8em arial;
+}
+
+
+
+/* Imagem c/ texto */
+
+.box {
+    border: 10px rgb(122 163 161);
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(122 163 161);
+}
+
+.box img {
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.box p {
+    margin: 60px;
+    text-indent: 35px;
+    text-align: justify;
+    font: 1em arial;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+/* Lista */
+
+.lista {
+    font: 1.2em verdana;
+    padding-top: 45px;
+    font-weight: bold;
+}
+
+
+
+/* Tabela */
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font: 1em arial;
+    padding-top: 17px;
+}
+
+.table th {
+    text-align: center;
+    background-color: rgb(122 163 161);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+th {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+td {
+    height: 25px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.td1 {
+    border: 1px solid rgb(122 163 161);
+}
+
+.td2 {
+    border: 1px solid rgb(122 163 161);
+    text-align: center;
+}
+
+
+
+/* Títulos */
+
+.title-box1 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 24px;
+    color: black;
+    font: 2em arial;
+    font-weight: bolder;
+}
+
+.title-box2 {
+    display: flex;
+    justify-content: center;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    font-weight: bold;
+    color: black;
+    font: 1.5em arial;
+}

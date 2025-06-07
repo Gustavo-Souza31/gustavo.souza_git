@@ -1,0 +1,176 @@
+body {
+  font-family: sans-serif;
+  font-size: 17px;
+  color: #666;
+  line-height: 2;
+  text-align: justify;
+  background-color: #f8f8f8;
+  margin: 0;
+}
+
+   header {
+    position: relative; 
+    background-image: url("../imagens/restaurante/restaurante\ fundo.jpg"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed; 
+    color: #fff; 
+    padding: 2rem;
+    text-align: center;
+    height: 300px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+
+header h1, header p {
+    position: relative; 
+    z-index: 2; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+header h1 {
+    font-size: 2.5rem; 
+    margin: 0 0 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem; 
+    margin: 0;
+}
+    h1 {
+  font-family: Verdana, sans-serif;
+  font-size: 30px;
+  margin: 0 0 0.5rem;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    .restaurant {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px #7c2d12;
+      margin-bottom: 2rem;
+      overflow: hidden;
+    }
+
+    .restaurant h2 {
+      background: #7c2d12;
+      color: white;
+      margin: 0;
+      padding: 1rem;
+    }
+
+    .restaurant-content {
+      padding: 1rem 1.5rem;
+    }
+
+    ul {
+      margin-top: 0.5rem;
+      padding-left: 1.5rem;
+    }
+
+    /* TABELAS */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+th,
+td {
+  padding: 0.85rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+th {
+  background-color: #f1f5f9;
+  font-weight: 600;
+  color: #1e293b;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+tr:hover {
+  background-color: #f9fafb;
+}
+
+    footer {
+      background-color: #1e293b;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    
+.carousel {
+    position: relative;
+    max-width: 100%;
+    margin: 2rem auto;
+    overflow: hidden; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-images img {
+    width: 100%; 
+    max-height: 300px; 
+    flex-shrink: 0; 
+    object-fit: cover;
+}
+
+.carousel-button {
+  display: none;
+}
+
+.carousel-button.prev {
+    left: 10px;
+}
+
+.carousel-button.next {
+    right: 10px;
+}
+
+.carousel-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.carousel-images img {
+    width: 90%; 
+    max-height: 300px; 
+    max-width: 50%; 
+    height: auto;
+    object-fit: cover;
+}

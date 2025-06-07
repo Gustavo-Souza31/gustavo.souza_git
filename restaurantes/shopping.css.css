@@ -1,0 +1,80 @@
+/* =================== VARIÁVEIS =================== */
+:root {
+  --fonte-principal: 'Montserrat', sans-serif;
+  --cor-texto: #333;
+  --cor-branca: #fff;
+}
+
+/* =================== RESET =================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =================== ESTRUTURA BASE =================== */
+body {
+  font-family: var(--fonte-principal);
+  background: var(--cor-branca);
+  color: var(--cor-texto);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+  color: #333;
+}
+
+.shopping {
+  background: white;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.shopping img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.shopping img:hover {
+  filter: none;
+}
+
+.shopping h2 {
+  margin-top: 10px;
+}
+
+.shopping a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #130069;
+  text-decoration: none;
+}
+
+.shopping a:hover {
+  text-decoration: underline;
+  color: #00695c;
+}
+
+.shopping img {
+  width: 300px;
+  height: auto;
+}
+
+table {
+  margin: auto;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,td {
+  padding: 5px;
+}
